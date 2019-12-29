@@ -7,10 +7,14 @@ import { ButtonContainer } from './Button';
 export default class Navbar extends Component {
     render() {
         return (
-            <NavWrapper className="navbar navbar-expand-sm navbar-dark px-sm-5">
+            <NavWrapper className="navbar navbar-expand-lg navbar-dark px-sm-5">
                 <Link to = '/'>
                     <img src={logo} alt="home" className="navbar-brand nav-logo-size" />
                 </Link>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav align-items-center">
                     <li className="nav-item ml-5">
                         <Link to = "/" className="nav-link">
@@ -36,6 +40,7 @@ export default class Navbar extends Component {
                         My Cart
                     </ButtonContainer>
                 </Link>
+            </div>
             </NavWrapper>
         );
     }
