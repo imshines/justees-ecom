@@ -28,14 +28,14 @@ export default class CartTotals extends Component {
                     clear cart
                   </button>
                 </Link>
-                <h5>
-                  <span className="text-title"> subtotal :</span>{" "}
+                {/* <h5>
+                  <span className="text-title"> Quantity :</span>{" "}
                   <strong>&#8377; {cartSubTotal} </strong>
-                </h5>
-                <h5>
+                </h5> */}
+                {/* <h5>
                   <span className="text-title"> shipping :</span>{" "}
                   <strong>&#8377; {cartTax} </strong>
-                </h5>
+                </h5> */}
                 <h5>
                   <span className="text-title"> total :</span>{" "}
                   <strong>&#8377; {cartTotal} </strong>
