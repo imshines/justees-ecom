@@ -26,7 +26,7 @@ export default class Modal extends Component {
                                             <h5 className="text-muted">price : &#8377; {price}</h5>
                                             <Link to = '/'>
                                             <WhiteBgbtn onClick={() => closeModal()}>
-                                                Contiue Shopping
+                                                Continue Shopping
                                             </WhiteBgbtn>
                                             </Link>
                                             <Link to = '/cart'>
